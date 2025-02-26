@@ -63,3 +63,6 @@ This project's code will be released on Github soon!
 
 1.2.1: 
 - Fixed a spelling mistake in the README (yor to your)
+
+1.2.2:
+- Github is now up!
