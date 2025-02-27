@@ -9,7 +9,7 @@ _A tiny terminal text colorer._
 def clear() -> None:
     """_Clears the screen._"""
     print("\033[1J")
-    print("\033[3J")
+    print("\033[H")
 
 
 B = "\033[30m"  # Black text.
@@ -32,3 +32,12 @@ BOLD = "\033[1m"  # Bolds.
 DIM = "\033[2m"  # Dims.
 ITALIC = "\033[3m"  # Italicizes.
 RESET = "\033[0m"  # Resets the formatting.
+
+def main():
+    import time
+    print(f"{B}example{RESET}")
+    time.sleep(1)
+    clear()
+
+if __name__ == '__main__':
+    main()

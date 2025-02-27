@@ -72,3 +72,6 @@ This project's code will be released on Github soon!
 
 1.2.4:
 - Fixed it (I really have to stop publishing without testing)
+
+1.2.5
+- Fixed the ANSI implementation again
