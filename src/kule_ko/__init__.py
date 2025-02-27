@@ -8,7 +8,8 @@ _A tiny terminal text colorer._
 
 def clear() -> None:
     """_Clears the screen._"""
-    print("\033[2J")
+    print("\033[1J")
+    print("\033[3J")
 
 
 B = "\033[30m"  # Black text.

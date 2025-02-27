@@ -68,4 +68,7 @@ This project's code will be released on Github soon!
 - Github is now up!
 
 1.2.3:
-- Switched method of clearing from os calls to ANSI
+- Switched method of clearing from `os` calls to ANSI
+
+1.2.4:
+- Fixed it (I really have to stop publishing without testing)
