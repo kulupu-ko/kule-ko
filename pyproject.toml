@@ -1,6 +1,6 @@
 [project]
 name = "kule-ko"
-version = "1.2.2"
+version = "1.2.3"
 description = "A very, very, small package to color the terminal"
 authors = [
     {name = "kulupu ko",email = "the.blob.system@gmail.com"}

@@ -1,16 +1,14 @@
 import os
 
 os.system("")
-"""_A tiny terminal text colorer._
+"""kule-ko
+_A tiny terminal text colorer._
 """
 
 
 def clear() -> None:
     """_Clears the screen._"""
-    if os.name == "nt":
-        os.system("cls")
-    else:
-        os.system("clear")
+    print("\033[2J")
 
 
 B = "\033[30m"  # Black text.

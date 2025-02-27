@@ -66,3 +66,6 @@ This project's code will be released on Github soon!
 
 1.2.2:
 - Github is now up!
+
+1.2.3:
+- Switched method of clearing from os calls to ANSI
